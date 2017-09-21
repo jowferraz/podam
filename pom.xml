@@ -230,13 +230,6 @@
 				<groupId>com.github.github</groupId>
 				<artifactId>site-maven-plugin</artifactId>
 				<version>0.12</version>
-				<dependencies>
-                        		<dependency>
-                            			<groupId>org.eclipse.mylyn.github</groupId>
-                            			<artifactId>org.eclipse.egit.github.core</artifactId>
-                            			<version>3.1.0</version>
-                        		</dependency>
-                    		</dependencies>
 				<configuration>
 					<message>Creating site for ${project.version}</message>
 				</configuration>
@@ -462,6 +455,13 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>3.5</version>
 		</dependency>
+		<repositories>
+			<repository>
+			<id>egit</id>
+      			<name>Eclipse egit</name>
+      			<url>https://repo.eclipse.org/content/repositories/egit-releases/</url>
+			</repository>
+		</repositories>
 
 		<!-- Testing dependencies -->
 		<dependency>
