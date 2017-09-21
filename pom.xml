@@ -229,12 +229,12 @@
 			<plugin>
 				<groupId>com.github.github</groupId>
 				<artifactId>site-maven-plugin</artifactId>
-				<version>0.12</version>
+				<version>0.13</version>
 				<dependencies>
                         		<dependency>
                             			<groupId>org.eclipse.mylyn.github</groupId>
                             			<artifactId>org.eclipse.egit.github.core</artifactId>
-                            			<version>2.1.5</version>
+                            			<version>3.1.0</version>
                         		</dependency>
                     		</dependencies>
 				<configuration>
