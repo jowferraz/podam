@@ -428,6 +428,13 @@
 			<url>gitsite:git@github.com/devopsfolks/podam.git</url>
 		</site>
 	</distributionManagement>
+	<repositories>
+			<repository>
+			<id>egit</id>
+      			<name>Eclipse egit</name>
+      			<url>https://repo.eclipse.org/content/repositories/egit-releases/</url>
+			</repository>
+	</repositories>
 
 	<dependencies>
 		<dependency>
@@ -455,13 +462,6 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>3.5</version>
 		</dependency>
-		<repositories>
-			<repository>
-			<id>egit</id>
-      			<name>Eclipse egit</name>
-      			<url>https://repo.eclipse.org/content/repositories/egit-releases/</url>
-			</repository>
-		</repositories>
 
 		<!-- Testing dependencies -->
 		<dependency>
